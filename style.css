@@ -1,0 +1,406 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1D1F23;
+    overflow-x: hidden;
+}
+
+.header-section {
+    background: linear-gradient(90deg, rgba(27, 90, 227, 0.15) 0%, rgba(140, 228, 255, 0) 100%);
+}
+
+header.header {
+    
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+header.header .inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.call {
+    min-width: 208px;
+    min-height: 56px;
+    background-color: #E9E9E933;
+    text-decoration: none;
+    display: inline-flex;
+    border-radius: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.email {
+    min-width: 282px;
+    min-height: 56px;
+    background: linear-gradient(90deg, #1B5AE3 0%, #8CE4FF 169.22%);
+    text-decoration: none;
+    display: inline-flex;
+    border-radius: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.info {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.get-in-touch {
+    width: 308px;
+    min-height: 56px;
+    background: linear-gradient(90deg, #1B5AE3 0%, #8CE4FF 169.22%);
+    text-decoration: none;
+    display: inline-flex;
+    border-radius: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.lead-form-submit {
+    width: 100%;
+    min-height: 56px;
+    background: linear-gradient(90deg, #1B5AE3 0%, #8CE4FF 169.22%);
+    text-decoration: none;
+    display: inline-flex;
+    border-radius: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    cursor: pointer;
+    border: 0;
+    margin-top: 20px;
+}
+
+.section-1 {
+    padding: 100px 0;
+}
+
+.section-1 .left h2 {
+    font-size: 50px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    color: #fff;
+    line-height: 60px;
+}
+
+.section-1 .left p {
+    font-size: 17px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    color: #fff;
+    margin: 30px 0;
+}
+
+.section-1 .left ul {
+    padding-left: 0;
+    margin-bottom: 50px;
+}
+
+.section-1 .left ul li {
+    font-size: 17px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    color: #fff;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    align-items: flex-start;
+    line-height: 18px;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.section-1 .left ul li:before {
+    content: "";
+    background: url('./assets/images/checkmark-circle-01.png') no-repeat center center;
+    width: 20px;
+    height: 20px;
+    display: inline-flex;
+}
+
+.section-1 .right .banner {
+    text-align: right;
+}
+
+.section-1 .right .banner img {
+    width: 576px;
+    height: 573px;
+}
+
+.section-2 {
+    display: flex;
+    align-items: center;
+    padding: 100px 0;
+    background: linear-gradient(180deg, rgba(50, 52, 54, 0.4) 0%, rgba(50, 52, 54, 0.4) 53.97%, rgba(29, 31, 35, 0.8) 100%);
+}
+
+.section-2 h2 {
+    font-size: 50px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    color: #fff;
+    line-height: 60px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-2 .slides {
+    margin-bottom: 50px;
+}
+
+.section-2 .slides .slide-image {
+    width: 100%;
+}
+
+.section-2 p {
+    font-size: 17px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    color: #fff;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.section-3 {
+    background: 
+    linear-gradient(180deg, rgba(92, 170, 243, 0.6) 0%, rgba(28, 92, 227, 0.6) 100%),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    linear-gradient(180deg, rgba(29, 31, 35, 0) 72.27%, #1D1F23 100%),
+    linear-gradient(180deg, #1D1F23 0%, rgba(29, 31, 35, 0) 24.94%),
+    url('./assets/images/73d6bcad046e1a72207301b095afcc930dde0910.jpg') center center / cover no-repeat;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    position: relative;
+    padding: 100px 0;
+}
+
+.section-3:before {
+    content: "";
+    width: 120%;
+    height: 100px;
+    background: #1e2024;
+    display: block;
+    position: absolute;
+    top: -45px;
+    left: -50px;
+    filter: blur(24px);
+}
+
+.section-3:after {
+    content: "";
+    width: 120%;
+    height: 100px;
+    background: #1e2024;
+    display: block;
+    position: absolute;
+    bottom: -45px;
+    left: -50px;
+    filter: blur(24px);
+}
+
+.section-3 .left h2 {
+    font-size: 45px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    color: #fff;
+}
+
+.section-3 .left p {
+    font-size: 17px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    color: #fff;
+    margin: 25px 0 50px 0;
+}
+
+.section-3 .left .listing h4 {
+    font-size: 24px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    color: #8CE4FF;
+    margin-bottom: 25px;
+}
+
+.section-3 .left ul {
+    padding-left: 0;
+    margin-bottom: 50px;
+}
+
+.section-3 .left ul li {
+    font-size: 17px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    color: #fff;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    align-items: flex-start;
+    line-height: 18px;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.section-3 .left ul li:before {
+    content: "";
+    background: url('./assets/images/checkmark-circle-01.png') no-repeat center center;
+    width: 20px;
+    height: 20px;
+    display: inline-flex;
+}
+
+.section-3 .form-container {
+    background-color: #ECECEDF2;
+    padding: 25px;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 490px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.section-3 .form-container h2 {
+    text-align: center;
+    margin-bottom: 24px;
+    font-weight: 600;
+}
+
+.section-3 .form-container input.form-control,
+.section-3 .form-container textarea.form-control,
+.section-3 .form-container select.form-control,
+.section-3 .form-container .intended {
+    border-radius: 32px;
+    min-height: 56px;
+    padding: 15px 25px;
+    font-size: 16px;
+}
+
+.section-3 .form-container .form-check-input {
+    position: relative;
+}
+
+.section-3 .form-container .form-check-input:before {
+    content: "";
+    border-width: 1px;
+    border-style: solid;
+    border-color: #b5b5b5;
+    width: 20px;
+    height: 20px;
+    display: block;
+    border-radius: 20px;
+    position: absolute;
+    right: -3px;
+    bottom: -3px;
+}
+
+.section-3 .form-container .form-check-input:checked {
+    background: linear-gradient(90deg, #1B5AE3 0%, #8CE4FF 169.22%);
+    position: relative;
+}
+
+.section-3 .form-container .form-check-input:checked:before {
+    border-color: #1B5AE3;
+}
+
+.section-3 .form-container .form-check-label {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.section-3 .form-container .intended .form-label b {
+    font-size: 14px;
+}
+
+.section-4 {
+    background: linear-gradient(180deg, rgba(50, 52, 54, 0) 0%, rgba(50, 52, 54, 0.4) 53.97%, rgba(29, 31, 35, 0.8) 100%);
+    padding: 100px 0;
+}
+
+.section-4 .highlight {
+    max-width: 715px;
+    margin: 0 auto;
+}
+
+.section-4 .highlight h2 {
+    font-size: 45px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+}
+
+.section-4 .highlight p {
+    font-size: 17px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    color: #fff;
+    margin: 25px 0 50px 0;
+}
+
+.section-4 .smart-slider .smart-slide-image {
+    width: 100%;
+}
+
+.section-5 {
+
+}
+
+.section-5 .highlight h2 {
+    font-size: 45px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+}
